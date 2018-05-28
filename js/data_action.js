@@ -1,10 +1,10 @@
 data_action = [
     {
-        title: "Attack",
+        title: "Атака",
         icon: "crossed-swords",
-        subtitle: "Melee or ranged attack",
-        description: "Perform a melee or ranged attack with your weapon",
-        reference: "PHB, pgs. 192,194-195.",
+        subtitle: "Атака врукопашную или на расстоянии",
+        description: "Совершите рукопашную или дальнюю атаку своим оружием",
+        reference: "Книга игрока, стр. 192,194-195.",
         bullets: [
             "Certain features, such as the <i>Extra Attack</i> feature of the fighter, allow you to make more than one attack with this action. Each of these attacks is a separate roll and may target different creatures. You may move in between these attacks.",
             "When you attack with a light melee weapon, you can use a bonus action to attack with your other hand (see the <i>Offhand attack</i> bonus action).",
