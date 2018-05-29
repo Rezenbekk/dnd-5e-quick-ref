@@ -1,9 +1,9 @@
 data_movement = [
     {
-        title: "Move",
+        title: "Движение",
         icon: "run",
-        subtitle: "Cost: 5ft per 5ft",
-        description: "Movement cost: 5ft per 5ft moved",
+        subtitle: "Стоимость: 5фт за 5фт",
+        description: "Стоимость в передвижении: 5фт за пройденные 5фт",
         reference: "PHB, pg. 190.",
         bullets: [
             "If you have more than one speed, such as your walking speed and a flying speed, you can switch back and forth between your speeds during your move. Whenever you switch, subtract the distance you've already moved from the new speed.",
