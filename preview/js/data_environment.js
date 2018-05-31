@@ -1,132 +1,132 @@
 data_environment_obscurance = [
     {
-        title: "Lightly obscured",
+        title: "Слабо заслонён",
         icon: "bleeding-eye",
-        subtitle: "Disadvantage on Perception",
-        description: "Dim light, patchy fog, moderate foliage",
-        reference: "PHB, pg. 183.",
+        subtitle: "Помеха к Восприятию",
+        description: "Тусклый свет, туман кусками, умеренная листва",
+        reference: "Книга игрока, стр. 183.",
         bullets: [
-            "Creatures have <b>disadvantage on Wisdom (Perception)</b> checks that rely on sight."
+            "Существа совершают <b>проверки Мудрости (Восприятие) с помехой</b>, если они полагаются на зрение."
         ]
     },
     {
-        title: "Heavily obscured",
+        title: "Сильно заслонён",
         icon: "lightning-tear",
-        subtitle: "Effectively blind",
-        description: "Darkness, opaque fog, dense foliage",
-        reference: "PHB, pg. 183.",
+        subtitle: "Практически слеп",
+        description: "Темнота, плотный туман, густая листва",
+        reference: "Книга игрока, стр. 183.",
         bullets: [
-            "A creature in a heavily obscured area effectively suffers from the <b>blinded condition</b>."
+            "Существо в сильно заслонённой области считается <b>ослепшим</b>."
         ]
     }
 ]
 
 data_environment_light = [
     {
-        title: "Bright light",
+        title: "Яркий свет",
         icon: "star-pupil",
-        subtitle: "Normal vision",
-        description: "Bright light lets most creatures see normally",
-        reference: "PHB, pg. 183.",
+        subtitle: "Обычное зрение",
+        description: "Яркий свет позволяет большинству существ нормально смотреть",
+        reference: "Книга игрока, стр. 183.",
         bullets: [
-            "Gloomy days still provide bright light, as do torches, lanterns, fires, and other sources of illumination within a specific radius."
+            "Тусклые дни все равно предоставляют яркий свет, как и факелы, фонари, огни, и прочие источники освещения в определённом радиусе."
         ]
     },
     {
-        title: "Dim light",
+        title: "Тусклый свет",
         icon: "semi-closed-eye",
-        subtitle: "Lightly obscured",
-        description: "Dim light, also called shadows",
-        reference: "PHB, pg. 183.",
+        subtitle: "Слабая помеха",
+        description: "Тусклый свет, тени",
+        reference: "Книга игрока, стр. 183.",
         bullets: [
-            "Creates a <b>lightly obscured</b> area.",
-            "An area of dim light is usually a boundary between a source of bright light, such as a torch, and surrounding darkness.",
-            "The soft light of twilight and dawn also counts as dim light. A particularly brilliant full moon might bathe the land in dim light."
+            "Создаёт <b>слабо заслонённую</b> область.",
+            "Тусклый свет обычно находится между ярким светом источника (например, фонаря) и окружающей темнотой.",
+            "Мягкий свет сумерек и рассвета также считается за тусклый свет. Особо яркая полная луна может предоставить тусклое освещение."
         ]
     },
     {
-        title: "Darkness",
+        title: "Темнота",
         icon: "worried-eyes",
-        subtitle: "Heavily obscured",
-        description: "Darkness creates a heavily obscured area",
-        reference: "PHB, pg. 183.",
+        subtitle: "Сильная помеха",
+        description: "Непроглядная тьма",
+        reference: "Книга игрока, стр. 183.",
         bullets: [
-            "Creates a <b>heavily obscured</b> area.",
-            "Characters face darkness outdoors at night (even most moonlit nights), within the confines of an unlit dungeon or a subterranean vault, or in an area of magical darkness."
+            "Создаёт <b>сильно заслонённую</b> область.",
+            "Темнота встречается ночью на улице, в неосвещённых закрытых помещениях и в областях магической темноты."
         ]
     }
 ]
 
 data_environment_vision = [
     {
-        title: "Blindsight",
+        title: "Слепое зрение",
         icon: "one-eyed",
-        subtitle: "Perceive without sight",
-        description: "Perceive your surroundings without relying on sight, within a certain radius",
-        reference: "PHB, pg. 183.",
+        subtitle: "Видеть без зрения",
+        description: "Воспринимание окружения, не полагаясь на зрение, в определённом радиусе",
+        reference: "Книга игрока, стр. 183.",
         bullets: [
-            "Creatures without eyes, such as oozes, and creatures with echolocation or heightened senses, such as bats and true dragons, have this sense."
+            "Этим чувством обладают существа без глаз, такие как слизи, и существа с эхолокацией или обострёнными чувствами, такие как летучие мыши и драконы."
         ]
     },
     {
-        title: "Darkvision",
+        title: "Тёмное зрение",
         icon: "semi-closed-eye",
-        subtitle: "Limited vision in darkness",
-        description: "A creature with Darkvision can see better in the dark or low light conditions, within a certain radius",
-        reference: "PHB, pgs. 183-184.",
+        subtitle: "Видеть в темноте",
+        description: "Существо с тёмным зрением лучше видит в темноте и тусклом свете, в определённом радиусе",
+        reference: "Книга игрока, стр. 183-184.",
         bullets: [
-            "Within a specified range, a creature with darkvision can <b>see in darkness as if the darkness were dim light</b>, so areas of darkness are only lightly obscured as far as that creature is concerned.",
-            "However, the creature can’t discern color in darkness, only shades of gray.",
-            "Many creatures in the worlds of D&D, especially those that dwell underground, have darkvision."
+            "В пределах указанной дистанции, существо с тёмным зрением может <b>видеть в темноте как в тусклом свете</b>, то есть для этого существа темнота предоставляет лишь слабый заслон",
+            "В темноте всё ещё невозможно различить цвета, различаются только оттенки серого.",
+            "Множество существ мира D&D, особенно подземных, обладает тёмным зрением."
         ]
     },
     {
-        title: "Truesight",
+        title: "Истинное зрение",
         icon: "eye-shield",
-        subtitle: "See in darkness",
-        description: "A creature with truesight can see everything in its true form, independent of the environment",
-        reference: "PHB, pg. 184.",
+        subtitle: "Видеть всё",
+        description: "Существо с истинным зрением видит всё в настоящей форме, вне зависимости от окружения",
+        reference: "Книга игрока, стр. 184.",
         bullets: [
-            "A creature with truesight can, out to a specific range, see in normal and magical darkness, see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceives the original form of a shapechanger or a creature that is transformed by magic.",
-            "Furthermore, the creature can see into the Ethereal Plane."
+            "Существа с истинным зрением могут в определённом радиусе видеть в обычной и магической темноте, видеть невидимые существа и предметы, автоматически обнаруживать зрительные иллюзии и преуспевать в спасбросках от них, и видеть истинный облик перевёртышей и существ, превращённых магией.",
+            "Зрение таких существ также простирается на Эфирный План."
         ]
     }
 ]
 
 data_environment_cover = [
     {
-        title: "Half cover",
+        title: "Укрытие наполовину",
         icon: "broken-shield",
-        subtitle: "Low wall, furniture",
-        description: "A target has half cover if an obstacle blocks at least half of its body",
-        reference: "PHB, pg. 196.",
+        subtitle: "Низкая стенка, мебель",
+        description: "Цель укрыта наполовину, если препятствие закрывает хотя бы половину её тела",
+        reference: "Книга игрока, стр. 196.",
         bullets: [
-            "The obstacle might be a low wall, a large piece of furniture, a narrow tree trunk, or a creature, whether that creature is an enemy or a friend.",
-            "A target with half cover has a <b>+2 bonus to AC and Dexterity saving throws</b>.",
-            " If a target is behind multiple sources of cover, only the most protective degree of cover applies"
+            "Препятствием может быть как небольшой объект, так и существо (и союзник, и враг).",
+            "Укрытая наполовину цель получает <b>бонус +2 к КД и спасброскам Ловкости</b>",
+            "Если цель укрыта за множеством препятствий, считается только самое большое."
         ]
     },
     {
-        title: "Three-quarters cover",
+        title: "Укрытие на 3/4",
         icon: "cracked-shield",
-        subtitle: "Portcullis, arrow slit",
-        description: "A target has three-quarters cover if about three-quarters of it is covered by an obstacle",
-        reference: "PHB, pg. 196.",
+        subtitle: "Решётка, бойница",
+        description: "Цель укрыта на три четверти, если препятствие закрывает хотя бы три четверти её тела",
+        reference: "Книга игрока, стр. 196.",
         bullets: [
-            "The obstacle might be a portcullis, an arrow slit, or a thick tree trunk.",
-            "A target with three-quarters cover has a <b>+5 bonus to AC and Dexterity saving throws</b>.",
-            " If a target is behind multiple sources of cover, only the most protective degree of cover applies"
+            "Препятствием может быть опускная решётка, бойница в стене или широкий ствол дерева.",
+            "Укрытая на три четверти цель получает <b>бонус +5 к КД и спасброскам Ловкости</b>",
+            "Если цель укрыта за множеством препятствий, считается только самое большое."
         ]
     },
     {
-        title: "Full cover",
+        title: "Полное укрытие",
         icon: "shield",
-        subtitle: "Completely concealed",
-        description: "A target has total cover if it is completely concealed by an obstacle",
-        reference: "PHB, pg. 196.",
+        subtitle: "Полностью укрыт",
+        description: "Цель имеет полное укрытие, если она полностью заслонена препятствием",
+        reference: "Книга игрока, стр. 196.",
         bullets: [
-            "A target with total cover <b>can’t be targeted directly</b> by an attack or a spell, although some spells can reach such a target by including it in an area of effect.",
-            "If a target is behind multiple sources of cover, only the most protective degree of cover applies"
+            "По цели с полным укрытием нельзя напрямую прицелиться атакой или заклинанием, хотя её всё ещё можно достать областью действия.",
+            "Если цель укрыта за множеством препятствий, считается только самое большое."
         ]
     }
 ]
