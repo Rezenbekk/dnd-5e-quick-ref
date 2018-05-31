@@ -35,8 +35,8 @@ data_condition = [
     {
         title: "Истощение",
         icon: "crawl",
-        subtitle: "You are exhausted",
-        description: "Exhaustion is measured in six levels",
+        subtitle: "Вы истощены",
+        description: "Истощение измеряется шестью уровнями",
         reference: "Книга игрока, стр. 291.",
         bullets: [
             "<table><tr><th>Уровень</th><th></th><th></th><th style='text-align:left'>Эффект</th></tr><tr><td>1</td><td></td><td></td><td>Помеха при проверках характеристик</td></tr><tr><td>2</td><td></td><td></td><td>Скорость уменьшается вдвое</td></tr><tr><td>3</td><td></td><td></td><td>Помеха при бросках атаки и спасбросках</td></tr><tr><td>4</td><td></td><td></td><td>Максимум здоровья уменьшается вдвое</td></tr><tr><td>5</td><td></td><td></td><td>Скорость снижается до 0</td></tr><tr><td>6</td><td></td><td></td><td>Смерть</td></tr></table>",
@@ -58,8 +58,8 @@ data_condition = [
     {
         title: "Схвачен",
         icon: "grab",
-        subtitle: "You are grappled",
-        description: "You are grappled",
+        subtitle: "Вы схвачены",
+        description: "Вы схвачены",
         reference: "Книга игрока, стр. 290.",
         bullets: [
             "Ваша скорость равна 0 и не получает бонусов к передвижению.",
