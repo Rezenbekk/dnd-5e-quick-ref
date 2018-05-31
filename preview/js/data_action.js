@@ -1,187 +1,189 @@
 data_action = [
     {
-        title: "Attack",
+        title: "Атака",
         icon: "crossed-swords",
-        subtitle: "Melee or ranged attack",
-        description: "Perform a melee or ranged attack with your weapon",
-        reference: "PHB, pgs. 192,194-195.",
+        subtitle: "Ближний или дальний бой",
+        description: "Совершите рукопашную или дальнобойную атаку вашим оружием",
+        reference: "Книга игрока, стр. 192,194-195.",
         bullets: [
-            "Certain features, such as the <i>Extra Attack</i> feature of the fighter, allow you to make more than one attack with this action. Each of these attacks is a separate roll and may target different creatures. You may move in between these attacks.",
-            "When you attack with a light melee weapon, you can use a bonus action to attack with your other hand (see the <i>Offhand attack</i> bonus action).",
-            "You may replace one of your melee attacks with a <i>Grapple</i> or a <i>Shove</i>.",
-            "Some conditions give advantage on the attack: attacks against blinded, paralyzed, petrified, restrained, stunned, or unconscious targets; melee attacks against prone targets; attacks by invisible or hidden attackers.",
-            "Some conditions give disadvantage on the attack: attacks against invisible or hidden targets; ranged attacks against prone targets; attacks by blinded, frightened, poisoned, or restrained attackers."
+            "Некоторые умения, такие как <i>Дополнительная атака</i>, позволяют совершить более, чем одну атаку этим действием. Каждая атака совершается отдельным броском. Цели можно выбрать разные. Между атаками можно передвигаться.",
+            "При атаке лёгким рукопашным оружием вы можете бонусным действием атаковать лёгким рукопашным оружием в другой руке. (см. бонусное действие <i>Атака вторым оружием</i>)",
+            "Вы можете использовать <i>Захват</i> или <i>Толкание</i> вместо одной из рукопашных атак.",
+            "Некоторые состояния предоставляют <b>преимущество</b>: атаки против ослеплённой, парализованной, окаменевшей, опутанной, ошеломлённой или бессознательной цели; рукопашные атаки против лежащей ничком цели; атака из укрытия или невидимости.",
+            "Некоторые состояние предоставляют <b>помеху</b>: атаки против невидимой или спрятавшейся цели; дальнобойные атаки против лежащей ничком цели; атака в состоянии слепоты, страха, отравления или опутанности."
         ]
     },
     {
-        title: "Grapple",
+        title: "Захват",
         icon: "grab",
-        subtitle: "Special melee attack",
-        description: "Attempt to grab a creature or wrestle with it",
-        reference: "PHB, pg. 195.",
+        subtitle: "Особая атака",
+        description: "Попытка захватить цель",
+        reference: "Книга игрока, стр. 195.",
         bullets: [
-            "You can use the <i>Attack</i> action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
-            "The target of your grapple must be no more than one size larger than you, and it must be within your reach.",
-            "Using at least one free hand, you try to seize the target by making a grapple check, a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
-            "If you succeed, you subject the target to the grappled condition (its speed is set to 0)."
+            "Вы можете использовать одну из <i>Атак</i>, чтобы совершить захват.",
+            "Цель захвата должна быть не более чем на одну категорию больше вас, и она должна быть в пределах досягаемости.",
+            "Используя хотя бы одну свободную руку, вы пытаетесь схватить цель, совершая проверку Силы (Атлетика) против проверки Силы (Атлетика) или Ловкости (Акробатика) цели (на её выбор).",
+            "В случае успеха цель становится <i>схваченной</i> (скорость равна 0)"
         ]
     },
     {
-        title: "Shove",
+        title: "Толкание",
         icon: "hand",
-        subtitle: "Special melee attack",
-        description: "Shove a creature, either to knock it prone or push it away from you",
-        reference: "PHB, pg. 195.",
+        subtitle: "Особая атака",
+        description: "Толкните существо в попытке уронить его или оттолкнуть от себя",
+        reference: "Книга игрока, стр. 195.",
         bullets: [
-            "Using the <i>Attack</i> action, you can make a special melee attack to shove a creature. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
-            "The target of your shove must be no more than one size larger than you, and it must be within your reach.",
-            "You make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
-            "If you win the contest, you either knock the target prone or push it 5 feet away from you."
+            "Вы можете использовать одну из <i>Атак</i>, чтобы толкнуть существо.",
+            "Цель должна быть не более чем на одну категорию больше вас, и она должна быть в пределах досягаемости.",
+            "Вы пытаетесь толкнуть цель, совершая проверку Силы (Атлетика) против проверки Силы (Атлетика) или Ловкости (Акробатика) цели (на её выбор).",
+            "В случае успеха вы роняете цель ничком или толкаете её на 5 футов от себя."
         ]
     },
     {
-        title: "Cast a spell",
+        title: "Заклинание",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 action",
-        description: "Cast a spell with a casting time of 1 action",
-        reference: "PHB, pg. 192.",
+        subtitle: "",
+        description: "Наложите заклинание со временем накладывания 1 действие",
+        reference: "Книга игрока, стр. 192.",
         bullets: [
-            "You can't cast a spell with you action and a different spell with your bonus action in the same turn, except if the action is used to cast a cantrip.",
-            "The target of a spell must be within the spell's range. To target something, you must have a clear path to it, so it can't be behind total cover.",
-            "Spells with material components do not consume the material unless explicitly stated. Unless the cost of a material is given, you can assume that the cost is negligible and the material is simply available in a component pouch.",
-            "Some spells require you to maintain concentration in order to keep their magic active. If you lose concentration, such a spell ends. You lose concentration on a spell if you cast another spell that requires concentration or when you are incapacitated. Each time you take damage, you must make a Constitution saving throw to maintain your concentration. The DC equals 10 or half the damage you take, whichever number is higher."
+            "Вы не можете наложить заклинание действием и ещё одно заклинание бонусным действием, если только действие не было потрачено на заговор.",
+            "Цель заклинания должна находиться в пределах дистанции заклинания и не находиться в полном укрытии.",
+            "Заклинания с материальными компонентами не расходуют их, если это не указано явно. Если стоимость компонента не указана, вы можете считать, что она ничтожно мала и он находится в сумке с компонентами.",
+            "Некоторые заклинания работают, только пока вы поддерживаете концентрацию на них. Вы теряете концентрацию, если вы накладываете другое заклинание с концентрацией или становитесь <i>недееспособными</i>. Каждый раз при получении урона требуется совершить <b>спасбросок Телосложения</b> для продолжения концентрации. Сложность равна 10 или половине урона (что выше)."
         ]
     },
     {
-        title: "Dash",
+        title: "Рывок",
         icon: "sprint",
-        subtitle: "Double movement speed",
-        description: "Gain extra movement for the current turn",
-        reference: "PHB, pg. 192.",
+        subtitle: "Удвоить скорость",
+        description: "Получите дополнительное передвижение на этот ход",
+        reference: "Книга игрока, стр. 192.",
         bullets: [
-            "The increase equals your speed, after applying any modifiers."
+            "Дополнительное передвижение равно вашей скорости после учёта всех модификаторов."
         ]
     },
     {
-        title: "Disengage",
+        title: "Отход",
         icon: "journey",
-        subtitle: "Prevent opportunity attacks",
-        description: "Your movement doesn't provoke opportunity attacks for the rest of the turn",
-        reference: "PHB, pg. 192.",
+        subtitle: "",
+        description: "Ваше передвижение не провоцирует атаки до конца вашего хода",
+        reference: "Книга игрока, стр. 192.",
         bullets: [
         ]
     },
     {
-        title: "Dodge",
+        title: "Уклонение",
         icon: "aura",
-        subtitle: "Increase defenses",
-        description: "Focus entirely on avoiding attacks",
-        reference: "PHB, pg. 192.",
+        subtitle: "Защитная стойка",
+        description: "Полностью сосредоточиться на уклонении от атак",
+        reference: "Книга игрока, стр. 192.",
         bullets: [
-            "Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage.",
-            "You lose this benefit if you are <i>incapacitated</i> or if your speed drops to 0."
+            "До начала вашего следующего хода любая атака против вас совершается с помехой, если вы видите нападающего, и вы совершаете спасброски Ловкости с преимуществом.",
+            "Данное преимущество теряется, если вы <i>недееспособны</i> или ваша скорость падает до 0."
         ]
     },
     {
-        title: "Escape",
+        title: "Высвобождение",
         icon: "manacles",
-        subtitle: "Escape a grapple",
-        description: "Escape a grapple",
-        reference: "PHB, pg. 195.",
+        subtitle: "",
+        description: "Попытайтесь высвободиться из захвата",
+        reference: "Книга игрока, стр. 195.",
         bullets: [
-            "To escape a grapple, you must succeed on a Strength (Athletics) or Dexterity (Acrobatics) check contested by the grappler's Strength (Athletics) check.",
-            "Escaping other conditions that restrain you (such as manacles) may require a Dexterity or Strength check, as specified by the condition."
+            "Чтобы высвободиться из захвата, вы должны успешно совершить проверку Силы (Атлетика) или Ловкости (Акробатика) против проверки Силы (Атлетика) захватчика.",
+            "Высвобождение из-под других сковывающих состояний (например, кандалы) может потребовать проверку Силы или Ловкости. (указано в состоянии)"
         ]
     },
     {
-        title: "Help",
+        title: "Помощь",
         icon: "telepathy",
-        subtitle: "Grant an ally advantage",
-        description: "Grant an ally advantage on an ability check or attack",
-        reference: "PHB, pg. 192.",
+        subtitle: "Дать преимущество",
+        description: "Дать союзнику преимущество в атаке или проверке способности",
+        reference: "Книга игрока, стр. 192.",
         bullets: [
-            "The target gains advantage on the next ability check it makes to perform the task you are helping with.",
-            "Alternatively, the target gains advantage on the next attack roll against against a creature within 5 feet of you.",
-            "The advantage lasts until the start of your next turn."
+            "Цель получает преимущество при следующей проверке способности для выполнения задачи, с которой вы помогаете.",
+            "Вместо этого, цель может получить преимущество при следующей атаке против существа в 5 футах от вас.",
+            "Преимущество длится до начала вашего следующего хода."
         ]
     },
     {
-        title: "Use Object",
+        title: "Использовать объект",
         icon: "snatch",
-        subtitle: "Interact, use special abilities",
-        description: "Interact with a second object or use special object abilities",
-        reference: "PHB, pg. 193.",
+        subtitle: "",
+        description: "Используйте второй объект",
+        reference: "Книга игрока, стр. 193.",
         bullets: [
-            "You can interact with one object for free during your turn (such as drawing a weapon or opening a door). If you want to interact with a second object, use this action.",
-            "When an object requires your action for its use, you also take this action."
+            "Вы можете свободно взаимодействовать с одним объектом за ход (например, обнажить оружие или открыть дверь). Для второго объекта нужно использовать это действие.",
+            "Если объект требует действия для его использования, вы так же используете это действие."
         ]
     },
     {
-        title: "Use shield",
+        title: "Использовать щит",
         icon: "round-shield",
-        subtitle: "Equip or unequip a shield",
-        description: "Equip or unequip a shield",
-        reference: "PHB, pgs. 144-146.",
+        subtitle: "Взять/убрать щит",
+        description: "Взять в руки или убрать щит",
+        reference: "Книга игрока, стр. 144-146.",
         bullets: [
-            "A shield always takes an action to equip or unequip.",
-            "Armor takes several minutes to equip or unequip."
+            "Чтобы взять в руки или убрать щит, всегда нужно потратить действие.",
+            "Надевание или снятие брони требует нескольких минут."
         ]
     },
     {
-        title: "Hide",
+        title: "Засада",
         icon: "hood",
         subtitle: "",
-        description: "Attempt to hide",
-        reference: "PHB, pg. 192.",
+        description: "Попытаться спрятаться",
+        reference: "Книга игрока, стр. 192.",
         bullets: [
-            "You can't hide from a creature that can see you. You must have total cover, be in a heavily obscured area, be invisible, or otherwise block the enemy's vision.",
-            "If you make noise (such as shouting a warning or knocking over a vase), you give away your position.",
-            "When you try to hide, make a Dexterity (Stealth) check and note the result. Until you are discovered or you stop hiding, that check's total is contested by the Wisdom (Perception) check of any creature that actively searches for signs of your presence.",
-            "A creature notices you even if it isn't searching unless your Stealth check is higher than its Passive Perception.",
-            "Out of combat, you may also use a Dexterity (Stealth) check for acts like concealing yourself from enemies, slinking past guards, slipping away without being noticed, or sneaking up on someone without being seen or heard."
+            "Вы не можете спрятаться от существа, которое вас видит. Вы должны находиться за укрытием, быть в сильно заслонённой местности, быть невидимым или иначе прятаться от врага.",
+            "Если вы нашумите (например, крикнете или уроните вазу), вы выдадите своё местонахождение.",
+            "Чтобы спрятаться, совершите проверку Ловкости (Скрытность) и запомните результат. Существа, которые вас ищут, должны побить его своей проверкой Мудрости (Восприятие), чтобы обнаружить вас.",
+            "Существо с пассивным Восприятием выше вашей проверки Скрытности заметит вас, даже если оно вас не ищет.",
+            "Это действие можно применять вне боя для укрытия от врагов и передвижения незамеченным."
         ]
     },
     {
-        title: "Search",
+        title: "Искать",
         icon: "magnifying-glass",
         subtitle: "",
-        description: "Devote your attention to finding something",
-        reference: "PHB, pg. 193.",
+        description: "Сфокусируйте своё внимание на поиске чего-либо.",
+        reference: "Книга игрока, стр. 193.",
         bullets: [
-            "Depending on the nature of your search, the DM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check."
+            "В зависимости от природы поиска, может потребоваться проверка Мудрости (Восприятие) или Интеллекта (Расследование)."
         ]
     },
     {
-        title: "Ready",
+        title: "Готовность",
         icon: "stopwatch",
-        subtitle: "Choose trigger and action",
-        description: "Choose a trigger and a response reaction",
-        reference: "PHB, pg. 193.",
+        subtitle: "Задержите действие",
+        description: "Выберите момент для своего действия",
+        reference: "Книга игрока, стр. 193.",
         bullets: [
-            "First, you decide what perceivable circumstance will trigger your reaction.",
-            "Then, you choose the action you will take in response to that trigger, or you choose to move up to your speed in response to it.",
-            "When the trigger occurs, you can either take your reaction right after the trigger finishes or ignore the trigger.",
-            "When you ready a spell, you cast it as normal but hold its energy, which you release with your reaction when the trigger occurs. To be readied, a spell must have a casting time of 1 action, and holding onto the spell's magic requires concentration"
+            "Сначала выберите, какое заметное для вас событие спровоцирует ваше действие.",
+            "Затем выберите, какое действие (или передвижение) вы используете в ответ",
+            "При наступлении этого события вы можете совершить выбранное действие <b>реакцией</b> или ничего не делать.",
+            "При подготовке заклинания, вы накладываете и удерживаете его, выпуская энергию заклинания реакцией. На удерживание заклинания требуется концентрация.",
+            "Если концентрация при удерживании заклинания была прервана, заклинание прерывается без эффекта (тратя ячейку заклинания).",
+            "Если при удерживании заклинания событие было проигнорировано, его можно высвободить действием в свой следующий ход."
         ]
     },
     {
-        title: "Use class feature",
+        title: "Особое умение",
         icon: "embrassed-energy",
-        subtitle: "Some features use actions",
-        description: "Use a racial or class feature that uses an action",
-        reference: "See class page for more information.",
+        subtitle: "",
+        description: "Используйте этим действием умение расы или класса.",
+        reference: "Для дополнительной информации сверьтесь с описанием конкретного умения.",
         bullets: [
 
         ]
     },
     {
-        title: "Improvise",
+        title: "Импровизация",
         icon: "juggler",
-        subtitle: "Any action not on this list",
-        description: "Perform any action you can imagine",
-        reference: "PHB, pg. 193.",
+        subtitle: "Любое действие",
+        description: "Совершите любое действие, которое вы можете себе представить",
+        reference: "Книга игрока, стр. 193.",
         bullets: [
-            "When you describe an action not detailed elsewhere in the rules, the DM tells you whether that action is possible and what kind of roll you need to make, if any, to determine success or failure."
+            "При описании действия, не объяснённого в правилах, Мастер решит, возможно ли это и нужно ли делать проверку на успех."
         ]
     }
 ]
