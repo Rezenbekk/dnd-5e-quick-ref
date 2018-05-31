@@ -1,180 +1,181 @@
 data_condition = [
     {
-        title: "Blinded",
+        title: "Ослеплён",
         icon: "one-eyed",
-        subtitle: "You can't see",
-        description: "You can't see",
-        reference: "PHB, pg. 290.",
+        subtitle: "Вы не можете видеть",
+        description: "Вы не можете видеть",
+        reference: "Книга игрока, стр. 290.",
         bullets: [
-            "You automatically fail any ability check which requires sight.",
-            "You have disadvantage on attack rolls.",
-            "Attack rolls against you have advantage."
+            "Вы автоматически проваливаете проверки способности, для которых нужно зрение.",
+            "Вы совершаете атаки с помехой.",
+            "Атаки против вас совершаются с преимуществом."
         ]
     },
     {
-        title: "Charmed",
+        title: "Очарован",
         icon: "smitten",
-        subtitle: "You are charmed",
-        description: "You are charmed by another creature",
-        reference: "PHB, pg. 290.",
+        subtitle: "Вы очарованы",
+        description: "Вы очарованы другим существом",
+        reference: "Книга игрока, стр. 290.",
         bullets: [
-            "You can't attack your charmer or target them with harmful abilities or magical effects.",
-            "Your charmer has advantage on ability checks to interact socially with you."
+            "Вы не можете атаковать того, кто вас очаровал или причинять ему вред умениями или магией.",
+            "Тот, кто вас очаровал, совершает все проверки на социальное взаимодействие с вами с преимуществом."
         ]
     },
     {
-        title: "Deafened",
+        title: "Оглох",
         icon: "elf-ear",
-        subtitle: "You can't hear",
-        description: "You can't hear",
-        reference: "PHB, pg. 290.",
+        subtitle: "Вы не можете слышать",
+        description: "Вы не можете слышать",
+        reference: "Книга игрока, стр. 290.",
         bullets: [
-            "You automatically fail any ability check which requires hearing."
+            "Вы автоматически проваливаете проверки способности, для которых нужен слух.",
         ]
     },
     {
-        title: "Exhaustion",
+        title: "Истощение",
         icon: "crawl",
         subtitle: "You are exhausted",
         description: "Exhaustion is measured in six levels",
-        reference: "PHB, pg. 291.",
+        reference: "Книга игрока, стр. 291.",
         bullets: [
-            "<table><tr><th>Level</th><th></th><th></th><th style='text-align:left'>Effect</th></tr><tr><td>1</td><td></td><td></td><td>Disadvantage on ability checks</td></tr><tr><td>2</td><td></td><td></td><td>Speed halved</td></tr><tr><td>3</td><td></td><td></td><td>Disadvantage on attack rolls and saving throws</td></tr><tr><td>4</td><td></td><td></td><td>Hit point maximum halved</td></tr><tr><td>5</td><td></td><td></td><td>Speed reduced to 0</td></tr><tr><td>6</td><td></td><td></td><td>Death</td></tr></table>",
-            "You suffer the effect of your current level of exhaustion as well as all lower levels.",
-            "Finishing a long rest reduces your exhaustion level by 1, provided that you have also had some food and drink."
+            "<table><tr><th>Уровень</th><th></th><th></th><th style='text-align:left'>Эффект</th></tr><tr><td>1</td><td></td><td></td><td>Помеха при проверках характеристик</td></tr><tr><td>2</td><td></td><td></td><td>Скорость уменьшается вдвое</td></tr><tr><td>3</td><td></td><td></td><td>Помеха при бросках атаки и спасбросках</td></tr><tr><td>4</td><td></td><td></td><td>Максимум здоровья уменьшается вдвое</td></tr><tr><td>5</td><td></td><td></td><td>Скорость снижается до 0</td></tr><tr><td>6</td><td></td><td></td><td>Смерть</td></tr></table>",
+            "Эффекты Истощения накапливаются с повышением уровня Истощения.",
+            "Продолжительный отдых понижает уровень Истощения на 1 при условии, что вы что-то съели и выпили."
         ]
     },
     {
-        title: "Frightened",
+        title: "Испуган",
         icon: "sharp-smile",
-        subtitle: "You are frightened",
-        description: "You are frightened",
-        reference: "PHB, pg. 290.",
+        subtitle: "Вы испуганы",
+        description: "Вы испуганы",
+        reference: "Книга игрока, стр. 290.",
         bullets: [
-            "You have disadvantage on ability checks and attack rolls while the source of your fear is within line of sight.",
-            "You can't willingly move closer to the source of your fear."
+            "Пока источник вашего страха находится в поле зрения, ваши атаки и проверки способности совершаются с помехой.",
+            "Вы не можете самостоятельно приблизиться к источнику вашего страха."
         ]
     },
     {
-        title: "Grappled",
+        title: "Схвачен",
         icon: "grab",
         subtitle: "You are grappled",
         description: "You are grappled",
-        reference: "PHB, pg. 290.",
+        reference: "Книга игрока, стр. 290.",
         bullets: [
-            "Your speed becomes 0, and you can't benefit from any bonus to your speed.",
-            "The condition ends if your grappler is incapacitated.",
-            "The condition also ends if you are removed from the reach of your grappler."
+            "Ваша скорость равна 0 и не получает бонусов к передвижению.",
+            "Состояние оканчивается, если схвативший становится <i>Недееспособен</i>.",
+            "Состояние также оканчивается, если вас переместили вне досягаемости схватившего."
         ]
     },
     {
-        title: "Incapacitated",
+        title: "Недееспособен",
         icon: "internal-injury",
-        subtitle: "You can't take actions or reactions",
-        description: "You can't take actions or reactions",
-        reference: "PHB, pg. 290.",
+        subtitle: "",
+        description: "Вы не можете совершать действия и реакции",
+        reference: "Книга игрока, стр. 290.",
         bullets: [
         ]
     },
     {
-        title: "Invisible",
+        title: "Невидимый",
         icon: "invisible",
-        subtitle: "You can't be seen",
-        description: "You can't be seen without the aid of magic or a special sense",
-        reference: "PHB, pg. 291.",
+        subtitle: "Вас не видно",
+        description: "Вас нельзя увидеть без помощи магии или особых чувств",
+        reference: "Книга игрока, стр. 291.",
         bullets: [
-            "For the purpose of hiding, you are heavily obscured.",
-            "You can still be detected by any noise you make or tracks you leave.",
-            "You have advantage on attack rolls.",
-            "Attack rolls against you have disadvantage."
+            "При попытке скрыться вы считаетесь сильно скрытым.",
+            "Вас всё ещё можно обнаружить по звуку или оставляемым следам.",
+            "Вы совершаете атаки с преимуществом.",
+            "Атаки против вас совершаются с помехой."
         ]
     },
     {
-        title: "Paralyzed",
+        title: "Парализован",
         icon: "internal-injury",
-        subtitle: "You are paralyzed",
-        description: "You can't do anything",
+        subtitle: "Вы парализованы",
+        description: "Вы не можете ничего сделать",
+        reference: "Книга игрока, стр. 292.",
         bullets: [
-            "You are incapacitated and can't move or speak.",
-            "Attack rolls against you have advantage.",
-            "Any attack that hits you is a critical hit if the attacker is within 5 feet of you.",
-            "You automatically fail Strength and Dexterity saving throws."
+            "Вы недееспособны и не можете двигаться или говорить.",
+            "Атаки против вас совершаются с преимуществом.",
+            "Любое попадание по вам является критическим, если атакующий находится в пределах 5 футов от вас.",
+            "Вы автоматически проваливаете спасброски Силы и Ловкости."
         ]
     },
     {
-        title: "Petrified",
+        title: "Окаменел",
         icon: "stone-pile",
-        subtitle: "You are transformed into stone",
-        description: "You are transformed, along with any nonmagical objects you are wearing or carrying, into a solid inanimate substance (usually stone)",
-        reference: "PHB, pg. 291.",
+        subtitle: "Вы превращены в камень",
+        description: "Вы вместе со всеми вашими предметами превращены в твердую прочную субстанцию (обычно камень)",
+        reference: "Книга игрока, стр. 291.",
         bullets: [
-            "Your weight increases by a factor of ten, and you cease aging.",
-            "You are incapacitated, can't move or speak, and are unaware of your surroundings.",
-            "Attack rolls against you have advantage.",
-            "You automatically fail Strength and Dexterity saving throws.",
-            "You have resistance to all damage.",
-            "You are immune to poison and disease, though a poison or disease already in your system is only suspended, not neutralized."
+            "Ваш вес увеличивается в десять раз и вы прекращаете стареть.",
+            "Вы недееспособны, не можете двигаться или говорить, и не в курсе вашей обстановки.",
+            "Атаки против вас совершаются с преимуществом.",
+            "Вы автоматически проваливаете спасброски Силы и Ловкости.",
+            "Вы имеете сопротивление ко всему урону.",
+            "Вы неуязвимы к яду и болезни, однако, яд или болезни, находившиеся в вашем организме до превращения, приостанавливают своё действие, но не прекращают его."
         ]
     },
     {
-        title: "Poisoned",
+        title: "Отравлен",
         icon: "deathcab",
-        subtitle: "You are poisoned",
-        description: "You are poisoned",
-        reference: "PHB, pg. 292.",
+        subtitle: "Вы отравлены",
+        description: "Вы отравлены",
+        reference: "Книга игрока, стр. 292.",
         bullets: [
-            "You have disadvantage on attack rolls and ability checks."
+            "Ваши атаки и проверки способности совершаются с помехой."
         ]
     },
     {
-        title: "Prone",
+        title: "Ничком",
         icon: "crawl",
-        subtitle: "You are prone",
-        description: "You are prone",
-        reference: "PHB, pg. 292.",
+        subtitle: "Вы лежите",
+        description: "Вы лежите ничком",
+        reference: "Книга игрока, стр. 292.",
         bullets: [
-            "Your only movement option is to crawl, unless you stand up.",
-            "You have disadvantage on attack rolls.",
-            "Attack rolls against you have advantage if the attacker is within 5 feet of you, otherwise the attack roll has disadvantage."
+            "Пока вы не встанете на ноги, из передвижения доступно только <i>Ползание</i>.",
+            "Вы совершаете атаки с помехой.",
+            "Атаки по вам совершаются с преимуществом, если нападающий находится в 5 футах от вас, дальнобойные атаки совершаются с помехой."
         ]
     },
     {
-        title: "Restrained",
+        title: "Опутан",
         icon: "imprisoned",
-        subtitle: "You are restrained",
-        description: "You are restrained",
-        reference: "PHB, pg. 292.",
+        subtitle: "Вы опутаны",
+        description: "Вы опутаны",
+        reference: "Книга игрока, стр. 292.",
         bullets: [
-            "Your speed becomes 0, and you can't benefit from any bonus to your speed.",
-            "You have disadvantage on attack rolls.",
-            "Attack rolls against you have advantage.",
-            "You have disadvantage on Dexterity saving throws."
+            "Ваша скорость равна 0 и не получает бонусов к передвижению.",
+            "Вы совершаете атаки с помехой.",
+            "Атаки по вам совершаются с преимуществом.",
+            "Вы совершаете спасброски Ловкости с помехой."
         ]
     },
     {
-        title: "Stunned",
+        title: "Ошеломлён",
         icon: "internal-injury",
-        subtitle: "You are stunned",
-        description: "You are stunned",
-        reference: "PHB, pg. 292.",
+        subtitle: "Вы ошеломлены",
+        description: "Вы ошеломлены",
+        reference: "Книга игрока, стр. 292.",
         bullets: [
-            "You are incapacitated, can't move, and can speak only falteringly.",
-            "Attack rolls against you have advantage.",
-            "You automatically fail Strength and Dexterity saving throws."
+            "Вы недееспособны, не можете передвигаться и можете говорить с большим трудом.",
+            "Атаки по вам совершаются с преимуществом.",
+            "Вы автоматически проваливаете спасброски Силы и Ловкости."
         ]
     },
     {
-        title: "Unconscious",
+        title: "Без сознания",
         icon: "coma",
-        subtitle: "You are unconscious",
-        description: "You are unconscious",
-        reference: "PHB, pg. 292.",
+        subtitle: "Вы без сознания",
+        description: "Вы без сознания",
+        reference: "Книга игрока, стр. 292;",
         bullets: [
-            "You are incapacitated, can't move or speak, and are unaware of your surroundings.",
-            "You drop whatever you're holding and fall prone.",
-            "Attack rolls against you have advantage.",
-            "Any attack that hits you is a critical hit if the attacker is within 5 feet of you.",
-            "You automatically fail Strength and Dexterity saving throws.",
+            "Вы недееспособны, не можете двигаться или говорить, и не в курсе вашей обстановки.",
+            "Вы роняете то, что держите в руках и падаете ничком.",
+            "Атаки по вам совершаются с преимуществом.",
+            "Любое попадание по вам является критическим, если атакующий находится в пределах 5 футов от вас.",
+            "Вы автоматически проваливаете спасброски Силы и Ловкости.",
         ]
     }
 ]
