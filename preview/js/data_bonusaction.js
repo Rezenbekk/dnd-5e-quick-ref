@@ -1,34 +1,35 @@
 data_bonusaction = [
     {
-        title: "Offhand Attack",
+        title: "Атака со второй руки",
         icon: "crossed-swords",
-        subtitle: "Use with the Attack action",
-        description: "Attack with your off hand",
-        reference: "PHB, pgs. 192,194-195.",
+        subtitle: "Только с Атакой",
+        description: "Атака оружием во второй руке",
+        reference: "Книга игрока, стр. 192,194-195.",
         bullets: [
-            "Only usable if you take the <i>Attack</i> action and attack with a light melee weapon that you're holding in one hand.",
-            "Perform a single attack with a different light melee weapon that you're holding in the other hand.",
-            "You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative.",
-            "If either weapon has the thrown property, you can throw the weapon, instead of making a melee attack with it."
+            "Можно использовать только вместе с действием <i>Атака</i>, причём в каждой руке должно быть лёгкое рукопашное одноручное оружие",
+            "Совершите одну атаку вашим лёгким рукопашным оружием, которое вы держите во второй руке.",
+            "К урону не добавляется бонус способности, если он не отрицательный.",
+            "Если оружие имеет свойство <i>Метательное</i>, его можно бросить."
         ]
     },
     {
-        title: "Cast a spell",
+        title: "Заклинание",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 bonus action",
-        description: "Cast a spell with a casting time of 1 bonus action",
-        reference: "PHB, pg. 192.",
+        subtitle: "",
+        description: "Наложите заклинание с временем накладывания в 1 бонусное действие",
+        reference: "Книга игрока, стр. 192.",
         bullets: [
-            "You can't cast a spell with you action and a different spell with your bonus action in the same turn, except if the action is used to cast a cantrip.",
+            "Вы не можете наложить заклинание действием и ещё одно заклинание бонусным действием, если только действие не было потрачено на заговор.",
             "For further details, see the <i>Cast a spell</i> action."
+            "Подробности в действии <i>Заклинание</i> (раздел Действия)"
         ]
     },
     {
-        title: "Use class feature",
+        title: "Особое умение",
         icon: "embrassed-energy",
         subtitle: "Some features use bonus actions",
-        description: "Use a racial or class feature that uses a bonus action",
-        reference: "See class page for more information.",
+        description: "Используйте этим бонусным действием умение расы или класса, если оно это позволяет.",
+        reference: "Для дополнительной информации сверьтесь с описанием конкретного умения.",
         bullets: [
 
         ]
