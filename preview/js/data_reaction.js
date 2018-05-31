@@ -1,36 +1,37 @@
 data_reaction = [
     {
-        title: "Opportunity attack",
+        title: "Провоцированная атака",
         icon: "crossed-swords",
-        subtitle: "Enemy leaves your reach",
-        description: "You can rarely move heedlessly past your foes without putting yourself in danger",
-        reference: "PHB, pg. 195.",
+        subtitle: "Враг отходит от вас",
+        description: "Редко можно пройти сквозь врагов, не подвергнув себя опасности",
+        reference: "Книга игрока, стр. 195.",
         bullets: [
-            "Trigger: enemy creature leaves your reach.",
-            "Make one melee attack against the provoking creature.",
-            "The attack interrupts the provoking creature's movement, occurring right before the creature leaves your reach.",
-            "Creatures don't provoke an opportunity attack when they teleport or when someone or something moves them without using their movement, action, or reaction."
+            "Используется, когда вражеское существо покидает зону вашей досягаемости",
+            "Совершите одну атаку против данного существа",
+            "Атака происходит как только существо отходит от вас, вмешиваясь в его передвижения (но не останавливая).",
+            "Существа, которые используют телепортацию или особые умения, не провоцируют атаки.",
+            "Если существо двигалось не самостоятельно (например, его оттолкнули), оно не провоцирует атаку."
         ]
     },
     {
-        title: "Readied action",
+        title: "Задержанное действие",
         icon: "stopwatch",
-        subtitle: "Part of your Ready action",
-        description: "Execute the reaction specified by your Ready action",
-        reference: "PHB, pg. 193.",
+        subtitle: "",
+        description: "Совершите действие, задержанное Подготовкой.",
+        reference: "Книга игрока, стр. 193.",
         bullets: [
-            "Trigger: specified by your <i>Ready</i> action."
+            "Используется при наступлении события, описанного при <i>Подготовке</i>."
         ]
     },
     {
-        title: "Cast a spell",
+        title: "Заклинание",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 reaction",
-        description: "Cast a spell with a casting time of 1 reaction",
-        reference: "PHB, pg. 192.",
+        subtitle: "",
+        description: "Наложите заклинание со временем накладывания 1 реакция",
+        reference: "Книга игрока, стр. 192.",
         bullets: [
-            "Trigger: specified by the spell.",
-            "For further details, see the <i>Cast a spell</i> action."
+            "Используется при указанном в описании заклинания событии.",
+            "Подробности в действии <i>Заклинание</i> (раздел Действия)."
         ]
     }
 ]
