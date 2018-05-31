@@ -27,7 +27,7 @@ data_bonusaction = [
     {
         title: "Особое умение",
         icon: "embrassed-energy",
-        subtitle: "Some features use bonus actions",
+        subtitle: "",
         description: "Используйте этим бонусным действием умение расы или класса, если оно это позволяет.",
         reference: "Для дополнительной информации сверьтесь с описанием конкретного умения.",
         bullets: [
